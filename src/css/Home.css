@@ -1,0 +1,31 @@
+:root {
+  --primary: #000;
+  --secondary: #1d1d1b;
+  --third: #2b2b2b;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary);
+}
+.App input, .App button {
+  font-family: "Montserrat"
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  font-family: "Montserrat"
+}
+.Home {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.image {
+  object-fit: cover;
+}

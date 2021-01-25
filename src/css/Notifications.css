@@ -1,0 +1,64 @@
+.select {
+    position: relative;
+}
+.current__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.current__item h2 {
+    padding: 0;
+    margin: 0
+}
+.icon__down {
+    width: 20px;
+    margin-left: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.icon__down__open {
+    transform: rotateZ(180deg);
+}
+.select__options {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.select__option {
+    padding: 8px 16px;
+}
+
+
+
+.Notifications {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Notifications input, .Notifications textarea {
+    width: calc(100% - 16px);
+    background-color: var(--secondary);
+    border: none;
+    color: #FFF;
+    padding: 8px;
+    font-size: 14px;
+}
+.Notifications .submit {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    background-color: var(--primary);
+    font-size: 14px;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+}
